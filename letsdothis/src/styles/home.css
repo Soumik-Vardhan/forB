@@ -1,0 +1,30 @@
+.bg-img {
+  height: 100vh;
+  width: 100rem;
+  object-fit: cover;
+  filter: brightness(0.6em);
+}
+.glow {
+  animation: glow 1s infinite alternate;
+}
+.navbar-brand {
+  font-size: 3rem;
+  /* font-weight: 700px; */
+}
+
+/* @keyframes glow {
+  from {
+    text-shadow: 0 0 10px #c0c0c0, 0 0 20px #c0c0c0, 0 0 30px #c0c0c0,
+      0 0 40px #c0c0c0, 0 0 50px #c0c0c0, 0 0 60px #c0c0c0, 0 0 70px #c0c0c0,
+      0 0 80px #c0c0c0;
+  }
+  to {
+    text-shadow: 0 0 20px #c0c0c0, 0 0 30px #c0c0c0, 0 0 40px #c0c0c0,
+      0 0 50px #c0c0c0, 0 0 60px #c0c0c0, 0 0 70px #c0c0c0, 0 0 80px #c0c0c0,
+      0 0 90px #c0c0c0;
+  }
+} */
+
+.custom-font {
+  font-family: "Lil Grotesk", sans-serif;
+}
